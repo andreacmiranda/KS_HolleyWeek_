@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6dc45">
+  <title>Kendra Scott | Inheritance of Hope Raffle</title>
+  <style>
+    :root{
+      --yellow:#f6dc45;
+      --soft:#fff9d9;
+      --cream:#fffdf6;
+      --ink:#171717;
+      --muted:#66625b;
+      --line:#eadf9c;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.45;
+    }
+    .wrap{max-width:760px;margin:auto;padding:0 20px 48px}
+    header{
+      text-align:center;
+      padding:42px 20px 30px;
+      background:linear-gradient(180deg,var(--yellow),#fff4a8);
+      border-radius:0 0 34px 34px;
+    }
+    .mark{
+      width:72px;height:72px;margin:0 auto 15px;
+      border:3px solid #fff;border-radius:50%;
+      display:grid;place-items:center;
+      font-family:Georgia,serif;font-size:34px;color:#fff;
+    }
+    .brand{
+      font-family:Georgia,"Times New Roman",serif;
+      letter-spacing:.22em;font-size:22px;margin:0 0 20px;
+    }
+    h1{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(38px,9vw,64px);
+      line-height:1;margin:0 0 14px;font-weight:500;
+    }
+    .lead{font-size:18px;max-width:560px;margin:0 auto}
+    .card{
+      background:#fff;
+      border:1px solid #eee8ce;
+      border-radius:22px;
+      padding:26px;
+      margin-top:22px;
+      box-shadow:0 8px 28px rgba(0,0,0,.05);
+    }
+    h2{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:28px;margin:0 0 14px;font-weight:500;
+    }
+    .entries{
+      display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px;
+    }
+    .entry{
+      border:1px solid var(--line);border-radius:18px;
+      padding:22px 16px;text-align:center;background:#fffef7;
+    }
+    .entry strong{display:block;font-size:44px;line-height:1;color:#111;margin:8px 0}
+    .entry .eyebrow{
+      text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:700;
+    }
+    .entry .date{font-size:14px;color:var(--muted)}
+    .highlight{
+      background:var(--soft);border-left:5px solid var(--yellow);
+      padding:18px 20px;border-radius:12px;margin-top:18px;
+    }
+    .rules{margin:0;padding-left:22px}
+    .rules li{margin:9px 0}
+    .prize{
+      text-align:center;background:var(--ink);color:white;
+    }
+    .prize .value{font-size:38px;font-family:Georgia,serif;color:var(--yellow)}
+    .small{font-size:13px;color:var(--muted)}
+    footer{text-align:center;padding:28px 10px 0;color:var(--muted);font-size:13px}
+    @media(max-width:560px){
+      .entries{grid-template-columns:1fr}
+      .card{padding:22px 18px}
+      header{padding-top:34px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="mark">KS</div>
+    <p class="brand">KENDRA SCOTT</p>
+    <h1>Shop with purpose.</h1>
+    <p class="lead">Join us at Dillard's Tallahassee for Holley Days and help support Inheritance of Hope while shopping Kendra Scott.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>How the raffle works</h2>
+      <p>Every eligible Kendra Scott piece gives you a chance to win our grand prize basket. Your number of entries depends on when you shop.</p>
+
+      <div class="entries">
+        <div class="entry">
+          <div class="eyebrow">Pre-sale</div>
+          <div class="date">Now through October 3</div>
+          <strong>2</strong>
+          <div>raffle entries<br>per piece</div>
+        </div>
+        <div class="entry">
+          <div class="eyebrow">Regular sale</div>
+          <div class="date">October 4 through 13</div>
+          <strong>1</strong>
+          <div>raffle entry<br>per piece</div>
+        </div>
+      </div>
+
+      <div class="highlight">
+        Pre-sale merchandise is processed beginning October 4 and can be picked up starting that day.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Your purchase supports Inheritance of Hope</h2>
+      <p>From October 4 through October 13, 20% of Kendra Scott sales from this event will support <strong>Inheritance of Hope</strong>.</p>
+      <p>Inheritance of Hope serves families facing the loss of a parent to terminal illness through destination Legacy Retreats®, counseling, community and meaningful memory-making experiences.</p>
+    </section>
+
+    <section class="card prize">
+      <h2>Grand Prize Raffle</h2>
+      <div class="value">$450+ value</div>
+      <p>The basket includes luxury beauty and fashion prizes, plus <strong>one Kendra Scott piece of the winner's choosing</strong>.</p>
+      <p><strong>Winner selected October 10 at 8:00 PM.</strong><br>
+      The winner will be contacted by text and does not need to be present. Prize pickup begins October 11.</p>
+    </section>
+
+    <section class="card">
+      <h2>Raffle rules at a glance</h2>
+      <ul class="rules">
+        <li>Pre-sale purchases completed before October 4 receive 2 entries for each Kendra Scott piece purchased.</li>
+        <li>Eligible regular purchases from October 4 through October 13 receive 1 entry for each Kendra Scott piece purchased.</li>
+        <li>The grand prize drawing takes place October 10 at 8:00 PM.</li>
+        <li>The winner does not need to be present and will be contacted by text.</li>
+        <li>The prize can be picked up beginning October 11.</li>
+        <li>Employees may participate.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Dillard's Tallahassee · Kendra Scott<br>
+      Inheritance of Hope benefit event · October 4–13
+    </footer>
+  </main>
+</body>
+</html>
